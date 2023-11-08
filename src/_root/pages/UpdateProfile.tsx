@@ -1,7 +1,7 @@
 import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useNavigate, useParams, Link } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 import {
   Form,
@@ -164,7 +164,7 @@ const UpdateProfile = () => {
               control={form.control}
               name="bio"
               render={({ field }) => (
-                <Link to={user.tokenUrl}>
+                
                   
                 <FormItem>
                   <FormLabel className="shad-form_label">Token</FormLabel>
@@ -176,7 +176,7 @@ const UpdateProfile = () => {
                   </FormControl>
                   <FormMessage className="shad-form_message" />
                 </FormItem>
-                </Link>
+               
               )}
             />
 

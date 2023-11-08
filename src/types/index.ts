@@ -1,4 +1,4 @@
-import { To } from "react-router-dom";
+// import { To } from "react-router-dom";
 
 export type INavLink = {
     imgURL: string;
@@ -34,14 +34,15 @@ export type INavLink = {
   };
   
   export type IUser = {
-    tokenUrl: To;
-    creator: any;
+   
+    // creator: unknown [];
     id: string;
     name: string;
     username: string;
     email: string;
     imageUrl: string;
     bio: string;
+   
   };
   
   export type INewUser = {

@@ -4,7 +4,6 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { IUser } from "@/types";
 import { getCurrentUser } from "@/lib/appwrite/api";
 
-
 export const INITIAL_USER = {
   id: "",
   name: "",
@@ -71,10 +70,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const cookieFallback = localStorage.getItem("cookieFallback");
     if (
       cookieFallback === "[]" ||
-      cookieFallback === null 
-    //   cookieFallback === undefined
-    ) navigate("/sign-in");
-    
+      cookieFallback === null ||
+      cookieFallback === undefined
+    ) {
+      navigate("/sign-in");
+    }
 
     checkAuthUser();
   }, []);
