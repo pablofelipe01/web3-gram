@@ -201,7 +201,7 @@ const SignupForm = () => {
       </div>
       <div>
         {/* Email link with icon */}
-        <a href="mailto:your-email@example.com" className="text-small-regular text-light-2">
+        <a href="mailto:toksol@toksol.io" className="text-small-regular text-light-2">
         <i className="far fa-envelope"></i> Contact
       </a>
       </div>
