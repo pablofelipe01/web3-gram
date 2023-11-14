@@ -154,21 +154,22 @@ const SigninForm = () => {
         </p>
       </form>
     </div>
+    <br />
     <div>
     <div>
-      <a href="https://github.com/pablofelipe01" target="_blank" rel="noopener noreferrer" className="text-small-regular text-light-2">
-        <i className="fab fa-github"></i> GitHub
-      </a>
-      <a href="https://twitter.com/tokensolutions" target="_blank" rel="noopener noreferrer" className="text-small-regular text-light-2 ml-3">
-        <i className="fa-brands fa-x-twitter"></i> Twitter
-      </a>
-      </div>
-      <div>
-        {/* Email link with icon */}
-        <a href="mailto:toksol@toksol.io" className="text-small-regular text-light-2">
-        <i className="far fa-envelope"></i> Contact
-      </a>
-      </div>
+  <a href="https://github.com/pablofelipe01" target="_blank" rel="noopener noreferrer" className="text-small-regular text-light-2">
+    <i className="fab fa-github"></i> GitHub
+  </a>
+  <a href="https://twitter.com/tokensolutions" target="_blank" rel="noopener noreferrer" className="text-small-regular text-light-2 ml-3">
+    <i className="fa-brands fa-x-twitter"></i> Twitter
+  </a>
+  
+  {/* Email link with icon */}
+  <a href="mailto:toksol@toksol.io" className="text-small-regular text-light-2 ml-3">
+    <i className="far fa-envelope"></i> Contact
+  </a>
+</div>
+      
       <div>
       {/* Developer's website link with icon */}
       <a href="https://www.toksol.io/" target="_blank" rel="noopener noreferrer" className="text-small-regular text-light-2">
@@ -177,7 +178,7 @@ const SigninForm = () => {
       </div>
      
     </div>
-    <div style={{ width: '50px', height: 'auto' }}>
+    <div style={{ width: '30px', height: 'auto' }}>
     {/* Solana logo with slogan */}
     <img src="https://i.imgur.com/HxeidNg.png" alt="Solana Logo" className="mt-2" />
     </div>
