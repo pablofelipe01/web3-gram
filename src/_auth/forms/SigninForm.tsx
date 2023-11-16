@@ -96,9 +96,16 @@ const SigninForm = () => {
     <Form {...form}>
     <div className="sm:w-420 flex-center flex-col">
       <img src="/assets/images/logo.svg" alt="logo" />
+      
+      <a className="text-sm md:text-base pt-3 sm:pt-6 text-purple-500 border border-purple-500 inline-block px-2 sm:px-4 py-1 sm:py-2 rounded" 
+          href="https://www.youtube.com/watch?v=hb6v4DIiWc8&t=76s" 
+          target="_blank" 
+          rel="noopener noreferrer">
+            First Time Click here
+      </a>
 
       <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">
-        Log in to your account
+        Log in to your Token account
       </h2>
       <p className="text-light-3 small-medium md:base-regular mt-2">
         Welcome back! Please enter your details.
@@ -145,7 +152,7 @@ const SigninForm = () => {
         </Button>
 
         <p className="text-small-regular text-light-2 text-center mt-2">
-          Don&apos;t have an account?
+          Don&apos;t have your Token?
           <Link
             to="/sign-up"
             className="text-primary-500 text-small-semibold ml-1">

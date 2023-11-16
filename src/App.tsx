@@ -23,6 +23,7 @@ import AuthLayout from "./_auth/AuthLayout";
 import RootLayout from "./_root/RootLayout";
 import SignupForm from "./_auth/forms/SignupForm";
 import SigninForm from "./_auth/forms/SigninForm";
+import Videos from "./_root/pages/Videos";
 
 const App = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="/posts/:id" element={<PostDetails />} />
           <Route path="/profile/:id/*" element={<Profile />} />
           <Route path="/update-profile/:id" element={<UpdateProfile />} />
+          <Route path="/videos" element={<Videos />} />
         </Route>
 
     </Routes>

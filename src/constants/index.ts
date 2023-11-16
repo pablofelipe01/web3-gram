@@ -22,7 +22,12 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/gallery-add.svg",
       route: "/create-post",
-      label: "Create Post",
+      label: "Token Logo",
+    },
+    {
+      imgURL: "/assets/icons/share.svg",
+      route: "/videos",
+      label: "Tutorials",
     },
   ];
   
@@ -34,8 +39,8 @@ export const sidebarLinks = [
     },
     {
       imgURL: "/assets/icons/wallpaper.svg",
-      route: "/explore",
-      label: "Explore",
+      route: "/videos",
+      label: "Tutorials",
     },
     {
       imgURL: "/assets/icons/bookmark.svg",
@@ -45,6 +50,6 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/gallery-add.svg",
       route: "/create-post",
-      label: "Create",
+      label: "Logo",
     },
   ];
