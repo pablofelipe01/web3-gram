@@ -70,7 +70,7 @@ const SigninForm = () => {
     if (isLoggedIn) {
       form.reset();
 
-      navigate("/");
+      navigate("/all-users");
     } else {
       toast({ title: "Login failed. Please try again.", });
       
@@ -82,14 +82,6 @@ const SigninForm = () => {
 
 
   }
-
-
-
-
-
-
- 
-
 
   return (
     

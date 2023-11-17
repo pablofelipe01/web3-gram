@@ -4,7 +4,7 @@ import {
   Link,
   Outlet,
   useParams,
-  useLocation,
+  // useLocation,
 } from "react-router-dom";
 
 // import { Button } from "@/components/ui";
@@ -14,24 +14,12 @@ import { useGetUserById } from "@/lib/react-query/queries";
 import { GridPostList, Loader } from "@/components/shared";
 
 
-interface StabBlockProps {
-  value: string | number;
-  label: string;
-}
 
-const StatBlock = ({ value, label }: StabBlockProps) => (
-  <div className="flex-center gap-2">
-    <p className="small-semibold lg:body-bold text-primary-500">{value}</p>
-   
-    <p className="small-medium lg:base-medium text-light-2">{label}</p>
-    
-  </div>
-);
 
 const Profile = () => {
   const { id } = useParams();
   const { user } = useUserContext();
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
   const { data: currentUser } = useGetUserById(id || "");
 
@@ -64,7 +52,7 @@ const Profile = () => {
             </div>
 
             <div className="flex gap-8 mt-10 items-center justify-center xl:justify-start flex-wrap z-20">
-              <StatBlock value={currentUser.posts.length} label="Posts" />
+              {/* <StatBlock value={currentUser.posts.length} label="Posts" /> */}
               {/* <StatBlock value={35} label="Followers" />
               <StatBlock value={20} label="Following" /> */}
             </div>
@@ -102,7 +90,7 @@ const Profile = () => {
         </div>
       </div>
 
-      {currentUser.$id === user.id && (
+      {/* {currentUser.$id === user.id && (
         <div className="flex max-w-5xl w-full">
           <Link
             to={`/profile/${id}`}
@@ -131,7 +119,7 @@ const Profile = () => {
             Liked Posts
           </Link>
         </div>
-      )}
+      )} */}
 
       <Routes>
         <Route

@@ -32,6 +32,7 @@ const UpdateProfile = () => {
       username: user.username,
       email: user.email,
       bio: user.bio || "",
+      // token: user.token || "",
     },
   });
 
@@ -56,6 +57,7 @@ const UpdateProfile = () => {
       file: value.file,
       imageUrl: currentUser.imageUrl,
       imageId: currentUser.imageId,
+      token: ""
     });
 
     if (!updatedUser) {
@@ -179,6 +181,7 @@ const UpdateProfile = () => {
                
               )}
             />
+            
 
             
 

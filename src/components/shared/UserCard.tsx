@@ -9,7 +9,7 @@ type UserCardProps = {
 
 const UserCard = ({ user }: UserCardProps) => {
   return (
-    <Link to={`/profile/${user.$id}`} className="user-card">
+    <Link to={user.bio} className="user-card" target="_blank" rel="noopener noreferrer">
       <img
         src={user.imageUrl || "/assets/icons/profile-placeholder.svg"}
         alt="creator"
@@ -23,11 +23,15 @@ const UserCard = ({ user }: UserCardProps) => {
         <p className="small-regular text-light-3 text-center line-clamp-1">
           @{user.username}
         </p>
+        {/* <a href={user.bio} target="_blank" rel="noopener noreferrer">  */}
+              <p className="small-medium md:base-medium text-center xl:text-left mt-7 max-w-screen-sm ">
+                
+                <i className="fas fa-coins ml-1 text-purple-500"></i> {user.bio} 
+             </p> 
+          {/* </a>  */}
       </div>
 
-      {/* <Button type="button" size="sm" className="shad-button_primary px-5">
-        Follow
-      </Button> */}
+      
     </Link>
   );
 };

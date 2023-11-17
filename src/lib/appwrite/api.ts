@@ -519,6 +519,7 @@ export async function updateUser(user: IUpdateUser) {
       {
         name: user.name,
         bio: user.bio,
+        token: user.token,
         imageUrl: image.imageUrl,
         imageId: image.imageId,
       }

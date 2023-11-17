@@ -10,6 +10,7 @@ export type INavLink = {
     userId: string;
     name: string;
     bio: string;
+    token: string;
     imageId: string;
     imageUrl: URL | string;
     file: File[];
@@ -34,6 +35,7 @@ export type INavLink = {
   };
   
   export type IUser = {
+    token: string;
    
     // creator: unknown [];
     id: string;
@@ -42,6 +44,7 @@ export type INavLink = {
     email: string;
     imageUrl: string;
     bio: string;
+    // token: string;
    
   };
   
