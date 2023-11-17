@@ -34,7 +34,7 @@ export const sidebarLinks = [
   export const bottombarLinks = [
     {
       imgURL: "/assets/icons/home.svg",
-      route: "/",
+      route: "/all-users",
       label: "Home",
     },
     {
@@ -42,14 +42,14 @@ export const sidebarLinks = [
       route: "/videos",
       label: "Tutorials",
     },
-    {
-      imgURL: "/assets/icons/bookmark.svg",
-      route: "/saved",
-      label: "Saved",
-    },
-    {
-      imgURL: "/assets/icons/gallery-add.svg",
-      route: "/create-post",
-      label: "Logo",
-    },
+    // {
+    //   imgURL: "/assets/icons/bookmark.svg",
+    //   route: "/saved",
+    //   label: "Saved",
+    // },
+    // {
+    //   imgURL: "/assets/icons/gallery-add.svg",
+    //   route: "/create-post",
+    //   label: "Logo",
+    // },
   ];
