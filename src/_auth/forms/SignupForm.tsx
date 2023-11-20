@@ -110,7 +110,7 @@ const SignupForm = () => {
           Claim your Token
         </h2>
         <p className="text-light-3 small-medium md:base-regular mt-2">
-          To own Tok_Sol Creators Token , Please enter your details
+      Please enter your details
         </p>
 
         
