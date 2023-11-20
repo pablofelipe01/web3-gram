@@ -7,7 +7,7 @@ import { Toaster } from "@/components/ui/toaster"
 import "./globals.css";
 import { Routes, Route } from "react-router-dom";
 import {
-    Home,
+    
     Explore,
     Saved,
     CreatePost,
@@ -38,7 +38,7 @@ const App = () => {
 
             {/* private routes */}
         <Route element={<RootLayout />}>
-          <Route index element={<Home />} />
+          <Route index element={<AllUsers />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/all-users" element={<AllUsers />} />
