@@ -1,4 +1,3 @@
-
 import YouTube from 'react-youtube';
 
 const Videos = () => {
@@ -21,7 +20,12 @@ const Videos = () => {
 
   return (
     <div className="flex flex-1">
-      <div className="common-container">
+      <div
+        className="common-container"
+        style={{
+          /* Add your general styles here */
+        }}
+      >
         <div className="max-w-5xl flex-start gap-3 justify-start w-full">
           <img
             src="/assets/icons/video.svg"
@@ -33,16 +37,27 @@ const Videos = () => {
         </div>
 
         {videos.map((video) => (
-          <div key={video.id} className="video-container">
+          <div 
+            key={video.id}
+            className="video-container "
+            style={{
+              /* Add your video container styles here */
+            }}
+          >
             <h3 className="video-title">{video.title}</h3>
             <YouTube videoId={video.id} opts={opts} />
           </div>
         ))}
 
         {/* Download PDF link */}
-        <div className="pdf-download-container">
+        <div
+          className="pdf-download-container"
+          style={{
+            /* Add your PDF container styles here */
+          }}
+        >
           <a href={pdfUrl} download className="pdf-download-link">
-          <span className="pdf-icon">📄</span> Download White Paper
+            <span className="pdf-icon">📄</span> Download White Paper
           </a>
         </div>
       </div>
