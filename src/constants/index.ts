@@ -19,11 +19,11 @@ export const sidebarLinks = [
     //   route: "/saved",
     //   label: "Saved",
     // },
-    // {
-    //   imgURL: "/assets/icons/gallery-add.svg",
-    //   route: "/create-post",
-    //   label: "Token Logo",
-    // },
+    {
+      imgURL: "/assets/icons/gallery-add.svg",
+      route: "/create-post",
+      label: "Claim Token",
+    },
     {
       imgURL: "/assets/icons/share.svg",
       route: "/videos",
@@ -47,9 +47,9 @@ export const sidebarLinks = [
     //   route: "/saved",
     //   label: "Saved",
     // },
-    // {
-    //   imgURL: "/assets/icons/gallery-add.svg",
-    //   route: "/create-post",
-    //   label: "Logo",
-    // },
+    {
+      imgURL: "/assets/icons/gallery-add.svg",
+      route: "/create-post",
+      label: "Claim",
+    },
   ];

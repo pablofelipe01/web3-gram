@@ -1,24 +1,37 @@
-import PostForm from '@/components/forms/PostForm';
-
-
 const CreatePost = () => {
   return (
     <div className="flex flex-1">
-      <div className="common-container">
-        <div className="max-w-5xl flex-start gap-3 justify-start w-full">
-          <img
-            src="/assets/icons/add-post.svg"
-            width={36}
-            height={36}
-            alt="add"
-          />
-          <h2 className="h3-bold md:h2-bold text-left w-full">Create Logo</h2>
-        </div>
-
-        <PostForm action="Create" />
+      <div
+        className="common-container"
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          paddingTop: "56.25%", // 16:9 aspect ratio
+        }}
+      >
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdYu3yAvGAFEiUi-ifoEsioIi0oymaGW7vRlUW2vw523y5Lpg/viewform?embedded=true"
+          className="embed-responsive-item"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "90%",
+            height: "100%",
+            border: 0,
+          }}
+          // frameBorder="0"
+          // marginHeight="0"
+          // marginWidth="0"
+        >
+          Loading…
+        </iframe>
       </div>
     </div>
   );
 };
 
 export default CreatePost;
+
+
+{/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYu3yAvGAFEiUi-ifoEsioIi0oymaGW7vRlUW2vw523y5Lpg/viewform?embedded=true" width="640" height="1496" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> */}
