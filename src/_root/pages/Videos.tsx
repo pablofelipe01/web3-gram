@@ -57,7 +57,7 @@ const Videos = () => {
           }}
         >
           <a href={pdfUrl} download className="pdf-download-link" rel="noreferrer" target="_blank">
-            <span className="pdf-icon">📄</span> Download White Paper
+            <span className="pdf-icon">📄</span> White Paper
           </a>
         </div>
       </div>
