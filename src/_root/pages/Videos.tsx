@@ -56,7 +56,7 @@ const Videos = () => {
             /* Add your PDF container styles here */
           }}
         >
-          <a href={pdfUrl} download className="pdf-download-link">
+          <a href={pdfUrl} download className="pdf-download-link" rel="noreferrer" target="_blank">
             <span className="pdf-icon">📄</span> Download White Paper
           </a>
         </div>
