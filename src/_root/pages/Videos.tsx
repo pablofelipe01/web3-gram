@@ -16,7 +16,7 @@ const Videos = () => {
   };
 
   // Replace 'YOUR_PDF_URL' with the actual URL of your PDF file
-  const pdfUrl = 'public/assets/pdf/Empowering Creators.pdf';
+  const pdfUrl = 'https://tokensolutions.mypinata.cloud/ipfs/QmVfLTmCsn9DmXuV9umNNnc7SR9k7qh3JtXUFMZ2kUCdME?_gl=1*vgufiv*_ga*MzQ1NDM4NDc0LjE2OTIyMDg4MzU.*_ga_5RMPXG14TE*MTcwMDg0OTExMC4xOC4xLjE3MDA4NDkxNjUuNS4wLjA.';
 
   return (
     <div className="flex flex-1">
