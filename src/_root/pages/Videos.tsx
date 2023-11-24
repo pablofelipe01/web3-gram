@@ -16,7 +16,7 @@ const Videos = () => {
   };
 
   // Replace 'YOUR_PDF_URL' with the actual URL of your PDF file
-  const pdfUrl = 'public/assets/pdf/Bidirectional_Tokenization_Model (1).pdf';
+  const pdfUrl = 'public/assets/pdf/Empowering Creators.pdf';
 
   return (
     <div className="flex flex-1">
