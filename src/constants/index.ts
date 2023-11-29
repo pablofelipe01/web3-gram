@@ -27,7 +27,7 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/share.svg",
       route: "/videos",
-      label: "Tutorials",
+      label: "Videos & Blog",
     },
   ];
   
@@ -40,7 +40,7 @@ export const sidebarLinks = [
     {
       imgURL: "/assets/icons/wallpaper.svg",
       route: "/videos",
-      label: "Tutorials",
+      label: "Video",
     },
     // {
     //   imgURL: "/assets/icons/bookmark.svg",
