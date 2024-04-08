@@ -181,9 +181,9 @@ const SigninForm = () => {
       </div>
      
     </div>
-    <div style={{ width: '30px', height: 'auto' }}>
+    <div style={{ width: '200px', height: 'auto' }}>
     {/* Solana logo with slogan */}
-    <img src="https://i.imgur.com/HxeidNg.png" alt="Solana Logo" className="mt-2" />
+    <img src="/public/assets/images/by.png" alt="Logo" className="mt-2" width="1200" height="1200" />
     </div>
     <div>
       {/* <p className="text-purple-500">Only possible in Solana</p> */}

@@ -119,7 +119,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
           )}
         />
 
-        {/* <FormField
+        <FormField
           control={form.control}
           name="location"
           render={({ field }) => (
@@ -131,7 +131,7 @@ const PostForm = ({ post, action }: PostFormProps) => {
               <FormMessage className="shad-form_message" />
             </FormItem>
           )}
-        /> */}
+        />
 
         <FormField
           control={form.control}

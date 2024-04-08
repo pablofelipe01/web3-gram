@@ -58,7 +58,7 @@ const Profile = () => {
             </div>
             <a href={currentUser.bio} target="_blank" rel="noopener noreferrer">
               <p className="small-medium md:base-medium text-center xl:text-left mt-7 max-w-screen-sm ">
-                Token <i className="fas fa-coins ml-1 text-purple-500"></i> {currentUser.bio} 
+                Web 3 <i className="fas fa-coins ml-1 text-purple-500"></i> {currentUser.bio} 
              </p>
           </a>
           </div>

@@ -3,8 +3,8 @@ import YouTube from 'react-youtube';
 const Videos = () => {
   const videos = [
     { id: 'rWTwcySGvrE', title: 'A Creator-Led Internet' },
-    { id: 'DhItNDltUTM', title: 'Technology in deep' },
-    { id: 'muQNbxPEoNw', title: 'Pitch' },
+    // { id: 'DhItNDltUTM', title: 'Technology in deep' },
+    { id: 'JYiBHoFoyjI', title: 'Pitch' },
   ];
 
   const opts = {
